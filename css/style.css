@@ -28,10 +28,12 @@ header .container {
     max-width: 980px;
     height: 80px;
     margin: auto;
+    
 }
 
 header nav ul {
     display: flex;
+    
 }
 
 header nav ul li {
@@ -49,27 +51,39 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: rgba(255, 255, 255, 0.15);
+    
 }
 
 header .container img {
     height: 30px;
+    
 }
 
 *checkbox-menu {
     display: none;
+    
 }
 
 /* MAIN */
 main {
     margin-bottom: 100px;
+    
 }
 
 main .container-main {
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: space-between;
     max-width: 980px;
     margin: 100px auto 0px auto;
+    
+}
+
+main .mundo{
+    max-width: 500px;
+    margin-left: 50px;
+    
+  
 }
 
 h2 {
@@ -88,6 +102,7 @@ h3 {
 
 form {
     margin-top: 20px;
+    margin-right: 100px;
 }
 
 form input {
@@ -131,21 +146,21 @@ a {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 25px;
 }
 
 .text--medium {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: rgb(187, 185, 185);
+    color: rgb(104, 99, 99);
 }
 
 .card {
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    box-shadow: 5px 5px 15px -4px #000000;
+    box-shadow: 10px 10px 15px -4px #000000;
     transition: all 0.3s ease 0s;
 }
 
@@ -163,15 +178,16 @@ a {
 }
 
 .image img {
-    position: absolute;
-    border-radius: 10px;
+    width: 400px;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .content {
-    margin: 20px;
+    margin: 15px;
 }
 
 .title {
@@ -193,12 +209,12 @@ a {
 }
 
 .Grid {
-    position: relative;
     max-width: 980px;
     padding: 10px;
     height: 300px;
     border: 1px solid rgb(182, 30, 30);
     margin: 10px;
+    
 
 
 }
