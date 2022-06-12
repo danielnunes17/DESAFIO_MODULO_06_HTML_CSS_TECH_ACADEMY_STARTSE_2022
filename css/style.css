@@ -28,12 +28,12 @@ header .container {
     max-width: 980px;
     height: 80px;
     margin: auto;
-    
+
 }
 
 header nav ul {
     display: flex;
-    
+
 }
 
 header nav ul li {
@@ -51,39 +51,39 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: rgba(255, 255, 255, 0.15);
-    
+
 }
 
 header .container img {
     height: 30px;
-    
+
 }
 
 *checkbox-menu {
     display: none;
-    
+
 }
 
 /* MAIN */
 main {
     margin-bottom: 100px;
-    
+
 }
 
 main .container-main {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 980px;
     margin: 100px auto 0px auto;
-    
+
 }
 
-main .mundo{
+main .mundo {
     max-width: 500px;
     margin-left: 50px;
-    
-  
+
+
 }
 
 h2 {
@@ -179,11 +179,11 @@ a {
 
 .image img {
     width: 400px;
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
 }
 
 .content {
@@ -212,25 +212,91 @@ a {
     max-width: 980px;
     padding: 10px;
     height: 300px;
-    border: 1px solid rgb(182, 30, 30);
     margin: 10px;
-    
-
+    position: absolute;
+    left: 250px;
 
 }
 
 .redes {
     font-size: 15px;
     font-weight: bold;
+}
+
+.redes img {
+    width: 250px;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
 
 
 }
 
+.insta img {
+    width: 70px;
+    padding: 12px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    margin: -10px;
+    cursor: pointer;
+
+}
+
+.face img {
+    width: 70px;
+    padding: 12px;
+    position: absolute;
+    top: 146px;
+    left: 50px;
+    margin: -10px;
+    cursor: pointer;
+
+
+}
+
+.youtube img {
+    width: 80px;
+    padding: 12px;
+    position: absolute;
+    top: 139px;
+    left: 100px;
+    margin: -10px;
+    cursor: pointer;
+
+
+}
+
+.linkedin img {
+    width: 90px;
+    padding: 12px;
+    position: absolute;
+    top: 142px;
+    left: 150px;
+    margin: -10px;
+    cursor: pointer;
+
+
+}
+
+.twitter img {
+    width: 55px;
+    padding: 12px;
+    position: absolute;
+    top: 146px;
+    left: 220px;
+    margin: -10px;
+    cursor: pointer;
+
+}
+
 footer {
+
     margin-top: -100px;
-    padding: 40px;
-    font-size: 12px;
-    border-width: 0pxx;
+    margin-left: 100px;
+    padding: 30px;
+    font-size: 13px;
+    border-width: 0px;
     border-top: 3px solid rgb(219, 215, 215);
     max-width: 100%;
     background-color: rgba(243, 243, 243, 0.912)
