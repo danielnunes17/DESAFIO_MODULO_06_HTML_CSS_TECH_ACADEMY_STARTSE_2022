@@ -232,7 +232,8 @@ a {
 .redes {
     font-size: 14px;
     font-weight: bold;
-    z-index: auto;
+    ;
+
 }
 
 .redes img {
@@ -240,7 +241,7 @@ a {
     padding: 10px;
     position: absolute;
     top: 0px;
-
+    
 
 }
 
@@ -252,6 +253,8 @@ a {
     left: 0px;
     margin: -10px;
     cursor: pointer;
+    z-index: 1;
+    
 
 }
 
@@ -263,6 +266,7 @@ a {
     left: 50px;
     margin: -10px;
     cursor: pointer;
+    z-index: 1;
 
 
 }
@@ -275,6 +279,7 @@ a {
     left: 100px;
     margin: -10px;
     cursor: pointer;
+    z-index: 1;
 
 
 }
@@ -287,6 +292,7 @@ a {
     left: 150px;
     margin: -10px;
     cursor: pointer;
+    z-index: 1;
 
 
 }
@@ -299,6 +305,7 @@ a {
     left: 220px;
     margin: -10px;
     cursor: pointer;
+    z-index: 1;
 
 }
 
