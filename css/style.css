@@ -13,6 +13,15 @@ body {
     font-family: "Source Sans Pro", 'Times New Roman';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    
+}
+body::-webkit-scrollbar {
+    width: 10px
+    
+} 
+  
+body::-webkit-scrollbar-thumb {   
+background-color: darkgrey;   
 }
 
 /* HEADER */
@@ -31,6 +40,10 @@ header .container {
 
 }
 
+#checkbox-menu{
+    display: none;
+
+}
 header nav ul {
     display: flex;
 
@@ -38,6 +51,7 @@ header nav ul {
 
 header nav ul li {
     list-style: none;
+ 
 }
 
 header nav ul li a {
@@ -47,6 +61,7 @@ header nav ul li a {
     font-size: 18px;
     padding: 24px;
     transition: all 250ms linear 0s;
+   
 }
 
 header nav ul li a:hover {
@@ -56,11 +71,6 @@ header nav ul li a:hover {
 
 header .container img {
     height: 30px;
-
-}
-
-*checkbox-menu {
-    display: none;
 
 }
 
@@ -203,24 +213,25 @@ a {
     height: 400px;
     align-items: center;
     border: none;
-    margin: 100px auto;
-    max-width: 1600px;
+    margin: 90px auto;
+    width: 1500px;
     background-color: rgba(243, 243, 243, 0.912)
 }
 
 .Grid {
-    max-width: 980px;
+    max-width: 960px;
     padding: 10px;
     height: 300px;
     margin: 10px;
-    position: absolute;
-    left: 250px;
+    position: relative;
+    left: -550px;
 
 }
 
 .redes {
     font-size: 14px;
     font-weight: bold;
+    z-index: auto;
 }
 
 .redes img {
@@ -318,11 +329,11 @@ a {
 footer {
 
     margin-top: -100px;
-    margin-left: 100px;
+    margin-left: 14px;
     padding: 30px;
     font-size: 13px;
     border-width: 0px;
     border-top: 3px solid rgb(219, 215, 215);
-    max-width: 100%;
+    max-width: 1500px;
     background-color: rgba(243, 243, 243, 0.912)
 }
