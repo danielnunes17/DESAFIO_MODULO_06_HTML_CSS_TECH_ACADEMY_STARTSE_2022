@@ -13,15 +13,15 @@ body {
     font-family: "Source Sans Pro", 'Times New Roman';
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    
+
 }
+
 body::-webkit-scrollbar {
     width: 10px
-    
-} 
-  
-body::-webkit-scrollbar-thumb {   
-background-color: darkgrey;   
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
 }
 
 /* HEADER */
@@ -40,10 +40,11 @@ header .container {
 
 }
 
-#checkbox-menu{
+#checkbox-menu {
     display: none;
 
 }
+
 header nav ul {
     display: flex;
 
@@ -51,7 +52,7 @@ header nav ul {
 
 header nav ul li {
     list-style: none;
- 
+
 }
 
 header nav ul li a {
@@ -61,7 +62,7 @@ header nav ul li a {
     font-size: 18px;
     padding: 24px;
     transition: all 250ms linear 0s;
-   
+
 }
 
 header nav ul li a:hover {
@@ -300,7 +301,8 @@ a {
     cursor: pointer;
 
 }
-.footnote p{
+
+.footnote p {
     margin: 0px;
     width: 780px;
     height: 280px;
@@ -315,7 +317,8 @@ a {
     line-height: 1.5;
 
 }
-.dues p{
+
+.dues p {
     width: 400px;
     height: 100px;
     font-size: 12px;
@@ -326,6 +329,7 @@ a {
     letter-spacing: 1px;
     line-height: 1.5;
 }
+
 footer {
 
     margin-top: -100px;
