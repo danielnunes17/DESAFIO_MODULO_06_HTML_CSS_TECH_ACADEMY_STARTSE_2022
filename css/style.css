@@ -219,7 +219,7 @@ a {
 }
 
 .redes {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -233,7 +233,7 @@ a {
 }
 
 .insta img {
-    width: 70px;
+    width: 60px;
     padding: 12px;
     position: absolute;
     top: 150px;
@@ -244,7 +244,7 @@ a {
 }
 
 .face img {
-    width: 70px;
+    width: 60px;
     padding: 12px;
     position: absolute;
     top: 146px;
@@ -256,7 +256,7 @@ a {
 }
 
 .youtube img {
-    width: 80px;
+    width: 70px;
     padding: 12px;
     position: absolute;
     top: 139px;
@@ -268,7 +268,7 @@ a {
 }
 
 .linkedin img {
-    width: 90px;
+    width: 80px;
     padding: 12px;
     position: absolute;
     top: 142px;
@@ -280,7 +280,7 @@ a {
 }
 
 .twitter img {
-    width: 55px;
+    width: 50px;
     padding: 12px;
     position: absolute;
     top: 146px;
@@ -289,7 +289,32 @@ a {
     cursor: pointer;
 
 }
+.footnote p{
+    margin: 0px;
+    width: 780px;
+    height: 280px;
+    font-size: 13px;
+    padding: 100px;
+    position: absolute;
+    left: center;
+    right: -850px;
+    top: -10px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5;
 
+}
+.dues p{
+    width: 400px;
+    height: 100px;
+    font-size: 12px;
+    position: absolute;
+    left: center;
+    right: -1200px;
+    top: 250px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
 footer {
 
     margin-top: -100px;
